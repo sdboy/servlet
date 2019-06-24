@@ -22,4 +22,24 @@
     <servlet-name>PostParametersServlet</servlet-name>
     <url-pattern>/servlet/PostParametersServlet</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ColorGetServlet</servlet-name>
+    <servlet-class>com.sdboy.github.ColorGetServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>ColorGetServlet</servlet-name>
+    <url-pattern>/servlet/ColorGetServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ColorPostServlet</servlet-name>
+    <servlet-class>com.sdboy.github.ColorPostServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ColorPostServlet</servlet-name>
+    <url-pattern>/servlet/ColorPostServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
